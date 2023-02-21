@@ -8,3 +8,4 @@ resource "aws_instance" "TirdadKor" {
     Created_By = "Terraform-Tirdad"
   }
 }
+
