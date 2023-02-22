@@ -9,3 +9,13 @@ resource "aws_instance" "TirdadKor" {
   }
 }
 
+# resource "aws_instance" "TirdadKor" {
+#   ami           = "ami-0aa7d40eeae50c9a9"
+#   instance_type = "t2.micro"
+#   key_name      = "dvh"
+
+#   tags = {
+#     Name       = "machine_name_01"
+#     Created_By = "Terraform-Tirdad"
+#   }
+# }
