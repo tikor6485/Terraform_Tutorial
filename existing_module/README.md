@@ -17,8 +17,11 @@ Before running this Terraform configuration, ensure that you have the following:
 To use this Terraform configuration:
 
 1-    Clone the repository to your local machine
+
 2-    Navigate to the root directory of the cloned repository
+
 3-    Edit the **'terraform.tfvars'** file and provide values for the required variables
+
 5-    Run the following commands:
 -    **'terraform init'**
 -    **'terraform plan'**
@@ -56,3 +59,7 @@ This Terraform configuration provides the following outputs:
 -    **'vpc_id'**: The ID of the VPC created by the **'terraform-aws-modules/vpc/aws'**module.
 -    **'public_subnet_id'**:  The ID of the public subnet created by the **'terraform-aws-modules/vpc/aws'** module.
 -    **'web_server_public_ip'**: The public IP address of the web server instance created by the **'modules/webserver'** module.
+
+
+
+
