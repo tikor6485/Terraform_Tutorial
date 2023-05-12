@@ -25,7 +25,7 @@ Before running the Terraform scripts, the following must be set up:
 -    **'instance_type'**: Instance type for the EC2 instance.
 -    **'my_ip'**: Your IP address to allow SSH access.
 -    **'public_key_location'**: The location of your public key file.
--    
+
 4-    Run **'terraform init'** to initialize the working directory.
 
 5-    Run **'terraform plan'**  to create an execution plan.
