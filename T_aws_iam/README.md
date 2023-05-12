@@ -14,8 +14,11 @@ Before you begin, make sure you have:
 To use this code, follow these steps:
 
 1-    Clone this repository.
+
 2-   Initialize the Terraform working directory and download the necessary plugins by running the command **'terraform init'**.
+
 3-    Customize the variables in **'variables.tf'** file according to your needs.
+
 4-    Run the command **'terraform apply'** to create the resources.
 
 ## Resources
@@ -29,3 +32,5 @@ This Terraform code creates the following AWS IAM resources:
 -    **'aws_iam_policy_attachment'**: Attaches a policy to a user, group, or role.
 -    **'aws_iam_role'**: Creates an IAM role.
 -    **'aws_iam_policy'**: Creates an IAM policy.
+
+
