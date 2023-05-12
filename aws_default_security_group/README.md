@@ -31,11 +31,3 @@ Before running this code, you need to have the following:
 
 
 Note: Make sure you do not have any critical data in the VPC as it will be destroyed if you run **'terraform destroy'**.
-
-
-
-
-
-
-
-
