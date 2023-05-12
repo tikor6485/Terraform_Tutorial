@@ -15,13 +15,17 @@ Before using this Terraform file, make sure you have the following prerequisites
 ## Usage
 
 1-    Update the **'variables.tf'** file with your desired values for the following variables:
--    	**'ami_id'**: The ID of the AMI you want to use for the instance
--    	**'instance_type'**: The instance type for the EC2 instance
--    	**'machine_name'**: A descriptive name for the EC2 instance
--    	**'key_name'**: The filename of the SSH public key to be used for the key pair
+-    **'ami_id'**: The ID of the AMI you want to use for the instance
+-    **'instance_type'**: The instance type for the EC2 instance
+-    **'machine_name'**: A descriptive name for the EC2 instance
+-    **'key_name'**: The filename of the SSH public key to be used for the key pair
+
 2-    Run **'terraform init'** to initialize the Terraform environment.
+
 3-    Run **'terraform plan'** to preview the changes that will be made.
+
 4-    Run **'terraform apply'** to create the resources.
+
 5-    Connect to the instance using the generated SSH key pair.
 
 
