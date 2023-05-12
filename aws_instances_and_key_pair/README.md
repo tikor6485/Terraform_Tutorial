@@ -31,6 +31,7 @@ Before using this Terraform file, make sure you have the following prerequisites
 
 
 ## Resources Created
+
 This Terraform file creates the following AWS resources:
 
 -    **'aws_instance'**: An EC2 instance with the specified AMI ID, instance type, and SSH key pair.
