@@ -75,4 +75,6 @@ This is a Terraform configuration file to create a VPC with two subnets, an Appl
 -    **'T_instance_type'**: The instance type for the EC2 instance.
 -    **'T_key_name'**: The name of the ssh key pair.
 -    **'T_cidr_block'**: The CIDR block for the internet gateway route.
--    
+
+
+
