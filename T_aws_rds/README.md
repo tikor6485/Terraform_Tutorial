@@ -14,10 +14,15 @@ This Terraform script creates a MySQL RDS instance in an AWS VPC with a specifie
 To use this code, follow these steps:
 
 1-    Clone this repository.
+
 2-    Navigate to the directory containing the **'main.tf'** file.
-3-    Run **'terraform init'** to initialize the working directory..
+
+3-    Run **'terraform init'** to initialize the working directory.
+
 4-    Run **'terraform apply'** to create the resources. You will be prompted to confirm the creation of resources.
+
 5-    Once the resources are created, you can find the RDS instance endpoint in the AWS console. Use this endpoint to connect to the MySQL instance using your favorite MySQL client.
+
 6-    Run **'terraform destroy'** to destroy all created resources when you no longer need them.
 
 ## Resources Created
@@ -47,10 +52,6 @@ The following variables are defined in the **'variables.tf'** file and can be cu
 -    **'T_instance_type'**: The instance type for the EC2 instance.
 -    **'T_instance_name'**: The name of the EC2 instance.
 -    **'T_key_name'**: The path to your SSH public key.
-
-
-
-
 
 
 
