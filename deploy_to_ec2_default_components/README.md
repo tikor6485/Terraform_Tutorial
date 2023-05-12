@@ -46,3 +46,4 @@ This Terraform configuration creates the following AWS resources:
 -    Default Security Group
 -    EC2 Instance
 
+
