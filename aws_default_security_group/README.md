@@ -22,11 +22,17 @@ Before running this code, you need to have the following:
 ## How to use
 
 1-    Clone this repository onto your machine.
+
 2-    Add your AWS access credentials as environment variables or update the **'provider'** block in the **'main.tf'** file.
+
 3-    Customize the values in the **'variables.tf'** file to fit your use case.
+
 3-    Run **'terraform init'** to initialize your working directory.
+
 4-    Run **'terraform plan'** to see what changes will be made.
+
 5-    If the plan looks good, run **'terraform apply'** to create the resources in your AWS account.
+
 6-    When you are done, run **'terraform destroy'** to remove all the resources.
 
 
