@@ -12,10 +12,15 @@ This Terraform configuration creates an Amazon Web Services (AWS) Virtual Privat
 ## Usage
 
 1-    Clone the repository to your local machine.
+
 2-    Navigate to the directory containing the **'main.tf'** file.
+
 3-    Create a **'terraform.tfvars'** file in the same directory and set the variables as per your requirement.
+
 4-    Run **'terraform init'** command to initialize the modules.
+
 5-    Run **'terraform apply'** command to create the VPC, subnet, and routing resources.
+
 6-    When you're done, run **'terraform destroy'** to delete the resources.
 
 
