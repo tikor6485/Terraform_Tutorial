@@ -12,11 +12,17 @@ This Terraform script provisions a VPC, a subnet, an internet gateway, a route t
 ## Usage
 
 1-    Clone this repository.
+
 2-    Navigate to the directory containing the code.
+
 3-    Configure the AWS provider in **'variables.tf'** by providing your AWS access key and secret access key.
+
 4-    Update the variables in **'variables.tf'** to suit your needs.
+
 5-    Run **'terraform init'** to initialize the working directory.
+
 6-    Run **'terraform plan'** to create an execution plan.
+
 7-    Run **'terraform apply'** to apply the changes.
 
 
