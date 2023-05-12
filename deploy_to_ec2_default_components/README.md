@@ -25,10 +25,15 @@ Before running the Terraform scripts, the following must be set up:
 -    **'instance_type'**: Instance type for the EC2 instance.
 -    **'my_ip'**: Your IP address to allow SSH access.
 -    **'public_key_location'**: The location of your public key file.
+-    
 4-    Run **'terraform init'** to initialize the working directory.
+
 5-    Run **'terraform plan'**  to create an execution plan.
+
 6-    If the execution plan looks good, run **'terraform apply'** to apply the changes and create the VPC and EC2 instance.
+
 7- Once the EC2 instance is created, you should be able to SSH into it using the private key associated with your SSH key pair. The public IP address of the instance can be found in the Terraform output.
+
 
 ## Resources Created
 
