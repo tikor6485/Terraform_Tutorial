@@ -13,10 +13,15 @@ Before running this code, you need to have the following:
 ## Usage
 
 1-    Clone this repository and navigate to the project directory.
+
 2-    Open the **'variables.tf'** file and modify the values of the variables to match your environment.
+
 3-    Run **'terraform init'** to initialize the working directory.
+
 4-    Run **'terraform plan'** to preview the changes that Terraform will make in your AWS account.
+
 5-    If the plan looks good, run **'terraform apply'** to create the resources.
+
 6-    When you're done, run **'terraform destroy'** to delete all the resources created by this code.
 
 ## Resources Created
